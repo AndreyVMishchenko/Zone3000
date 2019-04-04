@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>  
+	  <class name="tests.AuthorizationOldUser_1"/>   	  
+	  <class name="tests.AuthorizationNonexistentUser_2"/>   	  
+	  <class name="tests.AuthorizationUserWithInvalidEmail_3"/>  	  
+	  <class name="tests.CopyOfAuthorizationUserWithoutCredantials_4"/>
+	  <class name="tests.Logout_5"/> 
+	  <class name="tests.ClientArea_6"/> 
+	  <class name="tests.RefreshSupportPin_7"/>
+	  <class name="tests.Filters_8"/>	  
+	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
