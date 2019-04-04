@@ -51,7 +51,7 @@ public class Config extends Variables {
 			FileUtils.copyFile(screenshot, screenshotLocation); */
 				
 			dateTime();
-			System.out.println("[Info]В связи с ошибкой сравнения сделан скрин № " + name + ".png");
+			System.out.println("[Info]Г‚ Г±ГўГїГ§ГЁ Г± Г®ГёГЁГЎГЄГ®Г© Г±Г°Г ГўГ­ГҐГ­ГЁГї Г±Г¤ГҐГ«Г Г­ Г±ГЄГ°ГЁГ­ В№ " + name + ".png");
 		}
 		assertTrue(i.equals(y));
 	}
@@ -67,7 +67,7 @@ public class Config extends Variables {
 			FileUtils.copyFile(scrFile, new File("libs\\Screens\\" + name + ".png"));	
 				
 			dateTime();
-			System.out.println("[Info]В связи с ошибкой сравнения сделан скрин № " + name + ".png");
+			System.out.println("[Info]Г‚ Г±ГўГїГ§ГЁ Г± Г®ГёГЁГЎГЄГ®Г© Г±Г°Г ГўГ­ГҐГ­ГЁГї Г±Г¤ГҐГ«Г Г­ Г±ГЄГ°ГЁГ­ В№ " + name + ".png");
 		}
 		assertTrue(!i.equals(y));
 	}
@@ -83,7 +83,7 @@ public class Config extends Variables {
 			FileUtils.copyFile(scrFile, new File("libs\\Screens\\" + name + ".png"));	
 				
 			dateTime();
-			System.out.println("[Info]В связи с ошибкой сравнения сделан скрин № " + name + ".png");
+			System.out.println("[Info]Г‚ Г±ГўГїГ§ГЁ Г± Г®ГёГЁГЎГЄГ®Г© Г±Г°Г ГўГ­ГҐГ­ГЁГї Г±Г¤ГҐГ«Г Г­ Г±ГЄГ°ГЁГ­ В№ " + name + ".png");
 			
 		}
 		assertTrue(i == y);	
@@ -100,7 +100,7 @@ public class Config extends Variables {
 			FileUtils.copyFile(scrFile, new File("libs\\Screens\\" + name + ".png"));	
 				
 			dateTime();
-			System.out.println("[Info]В связи с ошибкой сравнения сделан скрин № " + name + ".png");
+			System.out.println("[Info]Г‚ Г±ГўГїГ§ГЁ Г± Г®ГёГЁГЎГЄГ®Г© Г±Г°Г ГўГ­ГҐГ­ГЁГї Г±Г¤ГҐГ«Г Г­ Г±ГЄГ°ГЁГ­ В№ " + name + ".png");
 		}
 		assertTrue(y);
 	}
@@ -116,59 +116,8 @@ public class Config extends Variables {
 			FileUtils.copyFile(scrFile, new File("libs\\Screens\\" + name + ".png"));	
 				
 			dateTime();
-			System.out.println("[Info]В связи с ошибкой сравнения сделан скрин № " + name + ".png");
+			System.out.println("[Info]Г‚ Г±ГўГїГ§ГЁ Г± Г®ГёГЁГЎГЄГ®Г© Г±Г°Г ГўГ­ГҐГ­ГЁГї Г±Г¤ГҐГ«Г Г­ Г±ГЄГ°ГЁГ­ В№ " + name + ".png");
 		}
 		assertTrue(!y);
 	}
-	
-	
-	
-	/*public void doWaitwaiter(Button i) throws InterruptedException {     
-		try {
-			for(int x = 0; x <15; x++){	
-				i.waitForElementToBeClickable();
-			}
-        } catch (Error e) {
-             Thread.sleep(1000);
-        }   */	
-	
-	/*public void doWaitwaiter(Label i) throws InterruptedException {     
-		try {
-			i.waitForElementToBeClickable();
-        } catch (Exception e) {
-             Thread.sleep(500);
-        }    
-    }
-	
-	public void doWaitwaiter(Button i) throws InterruptedException {     
-		try {
-			i.waitForElementToBeClickable();
-        } catch (Exception e) {
-             Thread.sleep(500);
-        }    
-    }
-	
-	public void doWaitwaiter(Field i) throws InterruptedException {     
-		try {
-			i.waitForElementToBeClickable();
-        } catch (Exception e) {
-             Thread.sleep(500);
-        }    
-    }	
-
-	public void doWaitwaiter(List<WebElement> i) throws InterruptedException {
-		try {
-			((Element) i).waitForElementToBeClickable();
-        } catch (Exception e) {
-             Thread.sleep(500);
-        }    		
-	}	
-	
-	public void doWaitwaiter(WebElement i) throws InterruptedException {
-		try {
-			((Element) i).waitForElementToBeClickable();
-        } catch (Exception e) {
-             Thread.sleep(500);
-        }    		
-	}	*/
 }
