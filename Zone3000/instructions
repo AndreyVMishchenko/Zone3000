@@ -1,8 +1,11 @@
 Project has 2 main suites:
+-----
 1 - src/main/java - include main files for project
 1.1 - conf - include configurations methods (logger, asserts)
 1.2 - elements - include methods for activity with elements
 1.3 - pages - include objects and methods for it
 1.4 - tests - include main class, for running applecation
+-----
 2 - src/test/java - inclide tests files, for running tests by one
+-----
 Project has class Test.xml - include all tests for project
